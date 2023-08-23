@@ -60,6 +60,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Redirect to the link when clicking on the icon
   iconElement.addEventListener('click', () => {
-      window.location.href = 'https://easychair.org/account/signin';
+      window.location.href = 'https://easychair.org/conferences/?conf=dei2023';
   });
 });
