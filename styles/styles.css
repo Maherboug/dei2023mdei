@@ -528,7 +528,59 @@ header .fa-bars {
   font-size: 108px;
   color: rgb(11, 11, 49);
 }
+/* accepted papers */
+.acc {
+  padding: 3rem 9%;
+}
 
+.acc .heading {
+  margin: 5rem auto;
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--th-color);
+}
+
+.acc .heading div {
+  display: inline-block;
+  border-bottom: 0.2rem solid var(--th-color);
+  width: 15rem;
+}
+
+.acc .heading div:hover {
+  width: 25rem;
+}
+
+.acc .content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 160px;
+}
+
+.acc .content {
+  font-size: 25px;
+  color: rgb(11, 11, 49);
+  margin-left: 10px;
+}
+
+.acc .content h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.acc .content ul {
+  list-style: disc;
+  margin-left: 10px;
+}
+
+.acc .content li {
+  margin-bottom: 5px;
+}
+
+.acc .fa-check-square-o{
+  font-size: 108px;
+  color: rgb(11, 11, 49);
+}
 .phair {
   display: flex;
   flex-direction: column;
@@ -584,10 +636,6 @@ header .fa-bars {
   /* Make sure the last line aligns to the left */
 }
 
-
-.ag p {
-  font-size: 28px;
-}
 
 
 .footer {
