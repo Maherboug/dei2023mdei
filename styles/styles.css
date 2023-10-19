@@ -635,8 +635,39 @@ header .fa-bars {
   text-align-last: left;
   /* Make sure the last line aligns to the left */
 }
+.ag .content h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.ag .table2 {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #8581e3;
+    background-color: #96baef;
+ 
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
 
 
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
 
 .footer {
   background: rgba(36, 34, 40, 0.6);
